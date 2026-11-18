@@ -8,6 +8,11 @@ The splash templates are stored in [sounds](./sounds).
 
 Requires Python 3.14 and [uv](https://docs.astral.sh/uv/).
 
+Before running AutoFisher, install
+[Better Fishing Forever](https://www.curseforge.com/wow/addons/better-fishing-forever)
+in World of Warcraft and bind its **Full Cast** action to `R`. AutoFisher presses `R`
+to retrieve and recast, so it will not work correctly with a different key binding.
+
 ```powershell
 uv sync
 uv run autofisher
