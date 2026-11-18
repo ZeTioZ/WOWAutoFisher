@@ -1,0 +1,22 @@
+"""Application constants."""
+
+TEMPLATE_FILES = (
+    "FishingBobber_ver2_1.ogg",
+    "FishingBobber_ver2_2.ogg",
+    "FishingBobber_ver2_3.ogg",
+)
+
+SIMILARITY_THRESHOLD = 0.73
+CONFIRMATION_CHUNKS = 3
+COOLDOWN_SECONDS = 3.0
+
+PULL_DELAY_RANGE = (0.35, 0.70)
+RECAST_DELAY_RANGE = (0.90, 1.50)
+
+CHUNK = 2048
+ANALYSIS_RATE = 16000
+N_FFT = 512
+HOP = 160
+N_BANDS = 32
+MAX_TEMPLATE_SECONDS = 0.85
+SPEED_VARIANTS = (0.96, 1.00, 1.04)

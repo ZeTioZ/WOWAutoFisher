@@ -1,0 +1,1 @@
+"""AutoFisher command-line interface."""
