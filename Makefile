@@ -27,7 +27,7 @@ test:
 	$(PYTEST) --cov-fail-under=0
 
 build:
-	$(PYINSTALLER) --clean --noconfirm --onefile --name AutoFisher --add-data "sounds$(DATA_SEPARATOR)sounds" --collect-all pyaudiowpatch --collect-all pyautogui build_exe.py
+	$(PYINSTALLER) --clean --noconfirm --onefile --name WOWAutoFisher --add-data "sounds$(DATA_SEPARATOR)sounds" --collect-all pyaudiowpatch --collect-all pyautogui --icon=WOWAutoFisher.ico build_exe.py
 
 run:
 	$(UV) run autofisher
